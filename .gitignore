@@ -22,7 +22,11 @@ bld/
 [Bb]in/
 [Oo]bj/
 
+<<<<<<< HEAD
 # Visual Studio 2015 cache/options directory
+=======
+# Visual Studo 2015 cache/options directory
+>>>>>>> 4911e812fbed15656051f9871e7d1841e42785f4
 .vs/
 
 # MSTest test Results
@@ -38,10 +42,13 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
+<<<<<<< HEAD
 # DNX
 project.lock.json
 artifacts/
 
+=======
+>>>>>>> 4911e812fbed15656051f9871e7d1841e42785f4
 *_i.c
 *_p.c
 *_i.h
@@ -94,7 +101,11 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
+<<<<<<< HEAD
 # JustCode is a .NET coding add-in
+=======
+# JustCode is a .NET coding addin-in
+>>>>>>> 4911e812fbed15656051f9871e7d1841e42785f4
 .JustCode
 
 # TeamCity is a build add-in
@@ -133,7 +144,11 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
+<<<<<<< HEAD
 # TODO: Comment the next line if you want to checkin your web deploy settings
+=======
+# TODO: Comment the next line if you want to checkin your web deploy settings 
+>>>>>>> 4911e812fbed15656051f9871e7d1841e42785f4
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
@@ -154,6 +169,7 @@ csx/
 # Windows Store app package directory
 AppPackages/
 
+<<<<<<< HEAD
 # Visual Studio cache files
 # files ending in .cache can be ignored
 *.[Cc]ache
@@ -161,6 +177,10 @@ AppPackages/
 !*.[Cc]ache/
 
 # Others
+=======
+# Others
+*.[Cc]ache
+>>>>>>> 4911e812fbed15656051f9871e7d1841e42785f4
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
@@ -171,7 +191,10 @@ ClientBin/
 *.publishsettings
 node_modules/
 bower_components/
+<<<<<<< HEAD
 orleans.codegen.cs
+=======
+>>>>>>> 4911e812fbed15656051f9871e7d1841e42785f4
 
 # RIA/Silverlight projects
 Generated_Code/
