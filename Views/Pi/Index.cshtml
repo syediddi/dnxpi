@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "Pi usage";
+}
+
+<div class="row">
+    <div id="perfConnectionStatus"></div>
+</div>
+   <div class="row">
+    <div class="col-md-12">
+        <h1>CPU </h1>
+        <canvas id="cpuChart" width="600" height="150"></canvas>
+        <p id="CpuUtilization">CPU utilization</p>
+    </div>
+   
+    <div class="col-md-12">
+        <h1>I/O </h1>
+        <canvas id="IOChartCanvas" width="600" height="150"></canvas>
+            <div class="chartLegend">
+                <p id="IOReadSpeed">Read speed</p>
+                <p id="IOWriteSpeed">Write speed</p>
+            </div>
+    </div>    
+    
+    </div>
+    
+    <div class="row">
+    <div class="col-md-6">
+         <h1>Memory</h1>
+          <p id="TotalMemory">Total</p>
+           <p id="InUseMemory">In use</p>
+           <p id="AvailableMemory">Available</p>
+           <p id="CommitedMemory">Commited</p>
+           <p id="PagedPool">Paged pool</p>
+           <p id="NonPagedPool">Non-paged pool</p>
+    </div>
+</div>
+@section scripts{
+    <script src="~/lib/smoothie/smoothie.js"></script>
+    <script src="~/js/SystemPerformance.js"></script>
+}
